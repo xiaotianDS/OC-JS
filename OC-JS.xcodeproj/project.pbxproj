@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0002FA271E8A502E00722C25 /* OC-JS.html in Resources */ = {isa = PBXBuildFile; fileRef = 0002FA261E8A502E00722C25 /* OC-JS.html */; };
 		008C75D01E8A3F0F00511778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C75CF1E8A3F0F00511778 /* main.m */; };
 		008C75D31E8A3F0F00511778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C75D21E8A3F0F00511778 /* AppDelegate.m */; };
 		008C75D61E8A3F0F00511778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C75D51E8A3F0F00511778 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0002FA261E8A502E00722C25 /* OC-JS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "OC-JS.html"; sourceTree = "<group>"; };
 		008C75CB1E8A3F0F00511778 /* OC-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008C75CF1E8A3F0F00511778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		008C75D11E8A3F0F00511778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		008C75CD1E8A3F0F00511778 /* OC-JS */ = {
 			isa = PBXGroup;
 			children = (
+				0002FA261E8A502E00722C25 /* OC-JS.html */,
 				008C75D11E8A3F0F00511778 /* AppDelegate.h */,
 				008C75D21E8A3F0F00511778 /* AppDelegate.m */,
 				008C75D41E8A3F0F00511778 /* ViewController.h */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008C75DE1E8A3F1000511778 /* LaunchScreen.storyboard in Resources */,
+				0002FA271E8A502E00722C25 /* OC-JS.html in Resources */,
 				008C75DB1E8A3F1000511778 /* Assets.xcassets in Resources */,
 				008C75D91E8A3F0F00511778 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +511,7 @@
 				008C75FA1E8A3F1000511778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008C75FB1E8A3F1000511778 /* Build configuration list for PBXNativeTarget "OC-JSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				008C75FD1E8A3F1000511778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008C75FE1E8A3F1000511778 /* Build configuration list for PBXNativeTarget "OC-JSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				008C76001E8A3F1000511778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
